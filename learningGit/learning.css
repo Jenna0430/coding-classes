@@ -52,13 +52,13 @@ main {
 }
 main .image {
   position: relative;
-  left: 250px;
-  top: 50px;
+  left: 10px;
+  top: 100px;
 }
 main .text {
   position: relative;
   top: 100px;
-  left: -40px;
+  left: 220px;
 }
 main .text .textonly p {
   font-size: 1.9rem;
