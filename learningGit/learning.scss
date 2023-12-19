@@ -43,3 +43,53 @@ nav{
     }
   }
 }
+
+main{
+  padding-top: 40px;
+  padding-left: 80px;
+  column-count: 2;
+  
+  .image{
+   position: relative;
+   left: 250px;
+   top: 50px;
+    
+  }
+
+  .text{
+    position: relative;
+    top: 100px;
+    left: -40px;
+
+    .textonly{
+      p{
+        font-size: 1.9rem;
+        letter-spacing: 3px;
+        line-height: 40px;
+      }
+      .slice{
+        color: red;
+      }
+      .friends{
+        color: blue;
+      }
+    }
+
+    .first{
+      margin-left: 20px;
+      padding: 7px 20px;
+      border-radius: 10px;
+      color: blue;
+      border: 2px solid silver;
+
+    }
+    .second{
+      margin-left: 20px;
+      padding: 7px 20px;
+      border-radius: 10px;
+      background-color: red;
+      color: white;
+      border: none;
+    }
+  }
+}

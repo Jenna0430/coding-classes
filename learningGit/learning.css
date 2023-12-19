@@ -42,4 +42,47 @@ nav .menu-login a {
 }
 nav .menu-login .special {
   color: black;
+}
+
+main {
+  padding-top: 40px;
+  padding-left: 80px;
+  -moz-column-count: 2;
+       column-count: 2;
+}
+main .image {
+  position: relative;
+  left: 250px;
+  top: 50px;
+}
+main .text {
+  position: relative;
+  top: 100px;
+  left: -40px;
+}
+main .text .textonly p {
+  font-size: 1.9rem;
+  letter-spacing: 3px;
+  line-height: 40px;
+}
+main .text .textonly .slice {
+  color: red;
+}
+main .text .textonly .friends {
+  color: blue;
+}
+main .text .first {
+  margin-left: 20px;
+  padding: 7px 20px;
+  border-radius: 10px;
+  color: blue;
+  border: 2px solid silver;
+}
+main .text .second {
+  margin-left: 20px;
+  padding: 7px 20px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  border: none;
 }/*# sourceMappingURL=learning.css.map */
