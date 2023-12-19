@@ -1,1 +1,45 @@
-/*# sourceMappingURL=learning.css.map */
+nav {
+  -moz-column-count: 3;
+       column-count: 3;
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+nav li a {
+  text-decoration: none;
+  padding-left: 20px;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+nav .logo a {
+  color: red;
+  font-size: 2rem;
+  font-weight: 500;
+}
+nav .menu-list {
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+nav .menu-list a {
+  color: black;
+  font-size: 1.1rem;
+}
+nav .menu-login {
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  padding-left: 130px;
+}
+nav .menu-login a {
+  color: red;
+  font-size: 1.1rem;
+}
+nav .menu-login .special {
+  color: black;
+}/*# sourceMappingURL=learning.css.map */
